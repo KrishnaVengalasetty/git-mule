@@ -15,7 +15,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<app.runtime>4.3.0</app.runtime>
-		<mule.maven.plugin.version>3.3.5</mule.maven.plugin.version>
+		<mule.maven.plugin.version>3.6.3</mule.maven.plugin.version>
 	</properties>
 
 	<build>
@@ -32,7 +32,7 @@
 				<extensions>true</extensions>
 				<configuration><cloudHubDeployment>
             <uri>https://anypoint.mulesoft.com</uri>
-            <muleVersion>4.4.0</muleVersion>
+            <muleVersion>4.3.0</muleVersion>
             <username>krish_012022</username>
             <password>Mule@2022</password>
             <applicationName>mulesoft-cicd-demo</applicationName>
