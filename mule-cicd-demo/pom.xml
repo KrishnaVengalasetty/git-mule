@@ -30,16 +30,7 @@
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
-				<configuration>
-				</configuration>
-			</plugin>
-			<plugin>
-    <groupId>org.mule.tools.maven</groupId>
-    <artifactId>mule-maven-plugin</artifactId>
-    <version>3.3.5</version>
-    <extensions>true</extensions>
-    <configuration>
-        <cloudHubDeployment>
+				<configuration><cloudHubDeployment>
             <uri>https://anypoint.mulesoft.com</uri>
             <muleVersion>4.3.0</muleVersion>
             <username>krish_012022</username>
@@ -49,8 +40,9 @@
             <workerType>MICRO</workerType>
             <objectStoreV2>true</objectStoreV2>
         </cloudHubDeployment>
-    </configuration>
-</plugin>
+				</configuration>
+			</plugin>
+			
 		</plugins>
 	</build>
 
